@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var fdmc = "https://meet.google.com/lookup/bgse72m5wn?authuser=0&hs=179";
+
+        var cca = "https://meet.google.com/lookup/b4woisbnqa?authuser=0&hs=179";
+
+        var ccalab = "https://meet.google.com/lookup/czyn5de42j?authuser=0&hs=179";
+
+        var sem = "https://meet.google.com/lookup/hwx2dmrynn?authuser=0&hs=179";
+
+        var semlab = "https://meet.google.com/lookup/bno2crwmrn?authuser=0&hs=179";
+
+        var oe = "https://meet.google.com/lookup/d7ahdbf7k7?authuser=0&hs=179";
+
+        var iotlab = "https://meet.google.com/lookup/hmoesjidxc?authuser=0&hs=179";
+
+        var iot = "https://meet.google.com/lookup/chgae24yo2?authuser=0&hs=179";
+
+        var pe = "https://meet.google.com/lookup/bnzfbnhscs?authuser=0&hs=179";
+
+        var today = new Date();
+        var day = today.getDay();
+        var hour = today.getHours();
+
+        if (day == 1) {
+            if (hour == 10) {
+                location.replace(fdmc);
+            }
+            else if (hour == 11) {
+                alert("free - placement");
+            }
+            else if (hour == 14) {
+                location.replace(pe);
+            }
+            else if (hour == 15) {
+                location.replace(cca);
+            }
+            else {
+                alert("free");
+            }
+        }
+        else if (day == 2) {
+            if (hour == 10) {
+                location.replace(oe);
+            }
+            else if (hour == 11) {
+                location.replace(pe);
+            }
+            else if (hour == 14) {
+                location.replace(sem);
+            }
+            else if (hour == 15) {
+                location.replace(iot);
+            }
+            else {
+                alert("free");
+            }
+        }
+        else if (day == 3) {
+            if (hour == 10) {
+                location.replace(cca);
+            }
+            else if (hour == 11) {
+                location.replace(iot);
+            }
+            else if (hour == 14) {
+                location.replace(semlab);
+            }
+            else if (hour == 15) {
+                location.replace(semlab);
+            }
+            else {
+                alert("free");
+            }
+        }
+        else if (day == 4) {
+            if (hour == 10) {
+                location.replace(sem);
+            }
+            else if (hour == 11) {
+                location.replace(fdmc);
+            }
+            else if (hour == 14) {
+                location.replace(pe);
+            }
+            else if (hour == 15) {
+                location.replace(oe);
+            }
+            else {
+                alert("free");
+            }
+        }
+        else if (day == 5) {
+            if (hour == 10) {
+                location.replace(iotlab);
+            }
+            else if (hour == 11) {
+                location.replace(iotlab);
+            }
+            else if (hour == 14) {
+                location.replace(ccalab);
+            }
+            else if (hour == 15) {
+                location.replace(ccalab);
+            }
+            else {
+                alert("free");
+            }
+        }
+
+        else {
+            if (hour == 10) {
+                location.replace(oe);
+            }
+            else if (hour == 11) {
+                location.replace(fdmc);
+            }
+            else {
+                alert("free");
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

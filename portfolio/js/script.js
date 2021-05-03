@@ -15,8 +15,7 @@ function emailsender() {
             t = document.getElementById("Email"),
             o = document.getElementById("message");
         Email.send({
-            Host: "smtp.gmail.com",
-            SecureToken: "2c286f16-3f5b-473d-aa11-e2f16e06c7af",
+            SecureToken: "bde5801b-8ced-465c-b820-25b647dce779",
             To: "saiotpmail@gmail.com",
             From: t.value,
             Subject: e.value + " sent you a message from portfolio",
